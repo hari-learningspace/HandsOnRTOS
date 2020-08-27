@@ -1,0 +1,17 @@
+
+OpenDocument="startup_stm32f407vgtx.s", FilePath="C:/Users/uidn9556/STM32CubeIDE/workspace_1.4.0/stm32_free_rtos/Core/Startup/startup_stm32f407vgtx.s", Line=52
+OpenDocument="port.c", FilePath="C:/Users/uidn9556/STM32CubeIDE/workspace_1.4.0/stm32_free_rtos/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c", Line=403
+OpenDocument="cmsis_os2.c", FilePath="C:/Users/uidn9556/STM32CubeIDE/workspace_1.4.0/stm32_free_rtos/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c", Line=0
+OpenDocument="tasks.c", FilePath="C:/Users/uidn9556/STM32CubeIDE/workspace_1.4.0/stm32_free_rtos/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3579
+OpenDocument="main.c", FilePath="C:/Users/uidn9556/STM32CubeIDE/workspace_1.4.0/stm32_free_rtos/Core/Src/main.c", Line=56
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=0, w=600, h=652, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Memory 1", DockArea=BOTTOM, x=1, y=0, w=914, h=326, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=534, h=652, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=907, h=326, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="FreeRTOS", DockArea=FLOATING, x=1305, y=39, w=606, h=235, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, Showing="Task List"
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[1435;100;100;100;259]
+TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Task List", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Name";"Run Count";"Priority";"Status";"Timeout";"Stack Info (Free / Size)";"ID";"Mutex Count";"Notified Value";"Notify State"], ColWidths=[110;110;110;110;110;110;110;110;110;110]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[100;118;382]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
