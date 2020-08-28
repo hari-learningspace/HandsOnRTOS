@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>stm32_free_rtos</name>
+	<name>HandsOnRTOS_Chapter7</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -30,4 +30,11 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Middlewares</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

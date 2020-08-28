@@ -35,24 +35,24 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-stm32_free_rtos.elf \
+HandsOnRTOS_Chapter7.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-stm32_free_rtos.list \
+HandsOnRTOS_Chapter7.list \
 
 OBJCOPY_BIN += \
-stm32_free_rtos.bin \
+HandsOnRTOS_Chapter7.bin \
 
 
 # All Target
-all: stm32_free_rtos.elf secondary-outputs
+all: HandsOnRTOS_Chapter7.elf secondary-outputs
 
 # Tool invocations
-stm32_free_rtos.elf: $(OBJS) $(USER_OBJS) C:\Users\uidn9556\STM32CubeIDE\workspace_1.4.0\stm32_free_rtos\STM32F407VGTX_FLASH.ld
-	arm-none-eabi-gcc -o "stm32_free_rtos.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\uidn9556\STM32CubeIDE\workspace_1.4.0\stm32_free_rtos\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_free_rtos.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+HandsOnRTOS_Chapter7.elf: $(OBJS) $(USER_OBJS) C:\Users\uidn9556\STM32CubeIDE\workspace_1.4.0\HandsOnRTOS_Chapter7\STM32F407VGTX_FLASH.ld
+	arm-none-eabi-gcc -o "HandsOnRTOS_Chapter7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\uidn9556\STM32CubeIDE\workspace_1.4.0\HandsOnRTOS_Chapter7\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HandsOnRTOS_Chapter7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -61,13 +61,13 @@ default.size.stdout: $(EXECUTABLES)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-stm32_free_rtos.list: $(EXECUTABLES)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "stm32_free_rtos.list"
+HandsOnRTOS_Chapter7.list: $(EXECUTABLES)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "HandsOnRTOS_Chapter7.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-stm32_free_rtos.bin: $(EXECUTABLES)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "stm32_free_rtos.bin"
+HandsOnRTOS_Chapter7.bin: $(EXECUTABLES)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "HandsOnRTOS_Chapter7.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 

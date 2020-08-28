@@ -1,5 +1,5 @@
 
-stm32_free_rtos.elf:     file format elf32-littlearm
+HandsOnRTOS_Chapter7.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -37,13 +37,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  16 .debug_macro  0002309f  00000000  00000000  00040d80  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   00011105  00000000  00000000  00063e1f  2**0
+ 17 .debug_line   00011869  00000000  00000000  00063e1f  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    000d5dad  00000000  00000000  00074f24  2**0
+ 18 .debug_str    000d5f96  00000000  00000000  00075688  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  0014acd1  2**0
+ 19 .comment      0000007b  00000000  00000000  0014b61e  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00005738  00000000  00000000  0014ad4c  2**2
+ 20 .debug_frame  00005738  00000000  00000000  0014b69c  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
