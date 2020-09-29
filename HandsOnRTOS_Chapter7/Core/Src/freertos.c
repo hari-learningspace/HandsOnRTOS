@@ -184,7 +184,7 @@ void GreenTask(void *argument)
   {
 	  SEGGER_SYSVIEW_PrintfHost("GreenLed Task - Low Priority");
       HAL_GPIO_TogglePin(GREENLED_GPIO_Port,GREENLED_Pin);
-	  osDelay(3);
+	  osDelay(300);
   }
   /* USER CODE END GreenTask */
 }
@@ -204,7 +204,7 @@ void StartTask03(void *argument)
   {
 	  SEGGER_SYSVIEW_PrintfHost("Task3 - Normal Priority");
 	  HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
-	  osDelay(5);
+	  osDelay(500);
   }
   /* USER CODE END StartTask03 */
 }
